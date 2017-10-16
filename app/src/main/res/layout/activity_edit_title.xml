@@ -11,14 +11,15 @@
         android:id="@+id/edit_title"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
         android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:layout_marginTop="19dp"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="Editar título..."
-        android:textSize="29sp" />
+        android:textSize="20sp" />
 
     <Button
         android:id="@+id/btn_save"
@@ -27,6 +28,7 @@
         android:layout_alignParentBottom="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
-        android:text="Guardar" />
+        android:text="Guardar"
+        android:onClick="saveTitle" />
 
 </RelativeLayout>
